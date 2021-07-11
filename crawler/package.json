@@ -1,0 +1,36 @@
+{
+  "name": "covid-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willshiao/covid-fake-news.git"
+  },
+  "author": "William Shiao <willshiao@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willshiao/covid-fake-news/issues"
+  },
+  "homepage": "https://github.com/willshiao/covid-fake-news#readme",
+  "dependencies": {
+    "apify": "^0.21.3",
+    "aws-cli-js": "^2.0.6",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "config": "^3.3.1",
+    "got": "^11.5.2",
+    "lodash": "^4.17.15",
+    "mkdirp": "^1.0.3",
+    "mongodb": "^3.6.0",
+    "node-warc": "^3.3.1",
+    "random-useragent": "^0.5.0",
+    "sitemap-stream-parser": "git+https://github.com/willshiao/node-sitemap-stream-parser.git",
+    "uuid": "^8.3.0",
+    "worker-farm": "^1.7.0",
+    "zlib": "^1.0.5"
+  }
+}

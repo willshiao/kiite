@@ -1,0 +1,6 @@
+apify_storage
+data_test
+config/*
+!config/default.js
+.vscode
+output

@@ -1,0 +1,17 @@
+{
+  "name": "factcheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Shiao <willshiao@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "config": "^3.3.1",
+    "got": "^11.0.2",
+    "mkdirp": "^1.0.4"
+  }
+}

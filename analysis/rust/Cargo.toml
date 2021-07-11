@@ -1,0 +1,19 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["William Shiao <willshiao@gmail.com>"]
+edition = "2018"
+default-run = "index"
+
+[dependencies]
+simd-json = "0.3.7"
+serde_json = "1.0.51"
+url = "2.1.1"
+
+[[bin]]
+name = "index_apify"
+path = "src/main_apify.rs"
+
+[[bin]]
+name = "index"
+path = "src/main.rs"
